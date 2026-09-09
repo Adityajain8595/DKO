@@ -28,3 +28,4 @@ Push the repository root to GitHub. Create a Render Web Service from that reposi
 For Vercel, import the same repository, set the project root to `frontend`, and add `NEXT_PUBLIC_API_URL` with the Render service URL. The frontend uses that value for all API requests at build and runtime.
 
 The Render health check is available at `/health`."# Digital-Krishi-Officer" 
+"# DKO" 
