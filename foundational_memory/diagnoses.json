@@ -1,0 +1,152 @@
+[
+  {
+    "id": "diag-1788945209967",
+    "timestamp": 1788945209.9671829,
+    "crop": "Crop Specimen",
+    "finding": "Fall Armyworm (Spodoptera frugiperda) infestation on Maize (Zea mays)",
+    "pathogen": "Spodoptera frugiperda (Lepidoptera: Noctuidae)",
+    "symptoms": "Extensive window-pane feeding damage on the leaf lamina, irregular holes, and ragged leaf margins. The leaf tissue is consumed leaving a translucent, skeletonized appearance, which is characteristic of larval feeding.",
+    "ipm": "Inspect the whorl of young plants for larvae and frass. Install pheromone traps to monitor adult moth activity. Encourage natural predators like Trichogramma pretiosum and parasitic wasps. Hand-pick and destroy larvae if the infestation is localized.\nICAR Extension Guideline: Fall Armyworm Infestation and Development: Screening Tropical Maize Genotypes for Resistance in Zambia The fall armyworm (FAW) (Spodoptera frugiperda J.E. Smith) is now a widespread and resident pest in Africa, where it is causing substantial yield losses to maize. Maize is an important staple food supporting more than 500 million people in sub-Saharan Africa. Since the arrival of FAW to Africa six years ago, multidisciplinary research aimed at managing the FAW and mitigating its impact on food security has been ongoing. Understanding the biology of the FAW under sub-Saharan African conditions and developing simple screening techniques for maize against the FAW will improve research outputs on FAW management. This study aimed to increase the understanding of FAW behaviour under sub-Saharan African conditions and investigated simple method",
+    "severity": "moderate"
+  },
+  {
+    "id": "diag-1788943772495",
+    "timestamp": 1788943772.4955912,
+    "crop": "Crop Specimen",
+    "finding": "Fall Armyworm (Spodoptera frugiperda) damage on Maize (Zea mays)",
+    "pathogen": "Spodoptera frugiperda (Lepidoptera: Noctuidae)",
+    "symptoms": "Extensive irregular window-pane feeding and shot-hole damage on the maize leaf blade, with tissue eaten out between the parallel veins, leaving a skeletonized appearance and ragged leaf margins.",
+    "ipm": "Inspect whorls and leaf undersides for larvae and frass; install pheromone traps for early detection; hand-pick and destroy larvae in small infestations; encourage natural enemies like Trichogramma wasps and parasitoid flies.\nICAR Extension Guideline: Understanding the impact of fall armyworm (Spodoptera frugiperda J. E. Smith) leaf damage on maize yields Fall armyworm (Spodoptera frugiperda J. E. Smith), a serious pest of maize and other cereals, recently invaded the Old World potentially threatening the food security and incomes of millions of smallholder farmers. Being able to assess the impacts of a pest on yields is fundamental to developing Integrated Pest Management (IPM) approaches. Hence, working with an early maturing, medium maturing and late maturing variety, we inoculated maize plants with 2nd instar S. frugiperda larvae at V5, V8, V12, VT and R1 growth stages to investigate the effects of FAW induced damage on yield. Different plants were inoculated 0–3 times and larvae were removed after 1 or 2 weeks to generate a wide range of damage profiles. We scored plants for leaf",
+    "severity": "moderate"
+  },
+  {
+    "id": "diag-1788943526073",
+    "timestamp": 1788943526.0730186,
+    "crop": "corn",
+    "finding": "Corn earworm (Helicoverpa armigera) infestation on maize (Zea mays)",
+    "pathogen": "Helicoverpa armigera (Lepidoptera: Noctuidae)",
+    "symptoms": "Distinct larval feeding tunnels and cavities within the ear, destruction of developing kernels, presence of frass (insect excrement) and chewed plant debris, and localized necrotic lesions on the husk leaves.",
+    "ipm": "Immediate application of a contact insecticide directly into the silks of all tasseling and silking-stage plants. Monitor fields daily during the silking period. For future seasons, consider planting Bt corn hybrids or using pheromone traps to monitor adult moth activity.\nICAR Extension Guideline: Predicting Helicoverpa zea (Lepidoptera: Noctuidae) populations in the southern United States Forecasting insect pest populations before crops are planted can help improve management and reduce pesticide use. Pests with long dispersal potentials and wide host ranges are difficult to predict but often cause losses in crops across broad spatial scales. Here, we use corn earworm, Helicoverpa zea Boddie (Lepidoptera: Noctuidae), as a case study of a regional crop pest to develop a forecasting framework. Models used historical H. zea trap data to predict populations across 12 states in the southern United States. Three regression models and one machine learning model were used to evaluate predictive performance in either space or time (ie year over year): linear regression model with fixed-effects only, Bayesian spatial-intercept model with an",
+    "severity": "moderate"
+  },
+  {
+    "id": "diag-1788943284185",
+    "timestamp": 1788943284.1855216,
+    "crop": "corn",
+    "finding": "Maize Stalk Borer (Chilo partellus) infestation on corn",
+    "pathogen": "Chilo partellus (Lepidoptera: Crambidae)",
+    "symptoms": "Distinct larval entry holes in the ear shucks, extensive feeding damage on the developing kernels, and the presence of frass (larval excrement) and chewed plant debris within the ear. The kernels show signs of being consumed, leading to significant yield loss.",
+    "ipm": "Immediate removal and destruction of infested cobs to prevent larvae from pupating. For future crops, release Trichogramma chilonis (egg parasitoid wasps) at 2-3 releases per season. Install pheromone traps (10-15 per hectare) to monitor and reduce adult moth population.\nICAR Extension Guideline: Farmer Question: what are the demerits of leaving maize stalks in the garden after harvesting.\nExpert Guidance: Disease and pest carryover: Some diseases and pests can overwinter or survive on maize stalks, potentially infecting or infesting future crops. It is advisable to remove and properly dispose of stalks affected by diseases or pests to minimize the risk. Crop rotation: Leaving maize stalks in the same area may hinder proper crop rotation, which is important for managing pests, diseases, and nutrient imbalances. If you decide to leave maize stalks in the garden as organic matter and mulch, it is recommended to chop or shred the stalks into smaller pieces to facilitate decomposition. It is also important to monitor for any signs of disease or pests and take appropriate measures if necessary. Overall, proper management of maize stalk",
+    "severity": "critical"
+  },
+  {
+    "id": "diag-1788943209002",
+    "timestamp": 1788943209.0022824,
+    "crop": "corn",
+    "finding": "Corn earworm (Helicoverpa armigera) infestation on maize (Zea mays)",
+    "pathogen": "Helicoverpa armigera",
+    "symptoms": "Distinct larval feeding damage on the ear tip, characterized by missing kernels, a cavity filled with brownish frass (insect excrement), and chewed silk. The husk shows puncture holes and discoloration at the entry point.",
+    "ipm": "Apply a targeted insecticide directly into the ear tip (ear drop) at the 'black silk' stage (when silks turn black and dry). Use pheromone traps to monitor adult moth populations and initiate control when trap counts exceed the economic threshold.\nICAR Extension Guideline: Predicting Helicoverpa zea (Lepidoptera: Noctuidae) populations in the southern United States Forecasting insect pest populations before crops are planted can help improve management and reduce pesticide use. Pests with long dispersal potentials and wide host ranges are difficult to predict but often cause losses in crops across broad spatial scales. Here, we use corn earworm, Helicoverpa zea Boddie (Lepidoptera: Noctuidae), as a case study of a regional crop pest to develop a forecasting framework. Models used historical H. zea trap data to predict populations across 12 states in the southern United States. Three regression models and one machine learning model were used to evaluate predictive performance in either space or time (ie year over year): linear regression model with fixed-effects only, Bayesian spatial-intercept model with an",
+    "severity": "moderate"
+  },
+  {
+    "id": "diag-1788943177233",
+    "timestamp": 1788943177.2332003,
+    "crop": "corn",
+    "finding": "Corn earworm (Helicoverpa armigera) infestation on maize (Zea mays)",
+    "pathogen": "Helicoverpa armigera",
+    "symptoms": "Distinct larval feeding damage on the ear tip, characterized by missing kernels, a cavity filled with brownish frass (excrement), and chewed silks. The husk shows physical damage and entry points.",
+    "ipm": "Apply a targeted insecticide directly into the ear tip (ear drop) at the 'black silk' stage (when silks turn black and sticky). Use pheromone traps to monitor adult moth population density.\nICAR Extension Guideline: Predicting Helicoverpa zea (Lepidoptera: Noctuidae) populations in the southern United States Forecasting insect pest populations before crops are planted can help improve management and reduce pesticide use. Pests with long dispersal potentials and wide host ranges are difficult to predict but often cause losses in crops across broad spatial scales. Here, we use corn earworm, Helicoverpa zea Boddie (Lepidoptera: Noctuidae), as a case study of a regional crop pest to develop a forecasting framework. Models used historical H. zea trap data to predict populations across 12 states in the southern United States. Three regression models and one machine learning model were used to evaluate predictive performance in either space or time (ie year over year): linear regression model with fixed-effects only, Bayesian spatial-intercept model with an",
+    "severity": "moderate"
+  },
+  {
+    "id": "diag-1788941041170",
+    "timestamp": 1788941041.170815,
+    "crop": "maize",
+    "finding": "Maize ear rot (Fusarium ear rot) on maize (Zea mays)",
+    "pathogen": "Fusarium verticillioides",
+    "symptoms": "Extensive brown to dark brown rotting of the ear kernel rows, presence of a dry, crumbly, tan-to-brown fungal mycelial mass, and localized browning and necrosis on the inner ear husk leaves.",
+    "ipm": "Remove and destroy infected ears from the field to prevent spore carryover. Maintain proper plant spacing for good air circulation. Avoid excessive nitrogen fertilization which leads to lush, disease-susceptible growth. Ensure proper irrigation to avoid water stress during grain fill.\nICAR Extension Guideline: Genome-Wide Association Study and QTL Mapping Reveal Genomic Loci Associated with Fusarium Ear Rot Resistance in Tropical Maize Germplasm Fusarium ear rot (FER) incited by Fusarium verticillioides is a major disease of maize that reduces grain quality globally. Host resistance is the most suitable strategy for managing the disease. We report the results of genome-wide association study (GWAS) to detect alleles associated with increased resistance to FER in a set of 818 tropical maize inbred lines evaluated in three environments. Association tests performed using 43,424 single-nucleotide polymorphic (SNPs) markers identified 45 SNPs and 15 haplotypes that were significantly associated with FER resistance. Each associated SNP locus had relatively small additive effects on disease resistance and accounted for 1–4% of trait variation. These S",
+    "severity": "critical"
+  },
+  {
+    "id": "diag-1788941007292",
+    "timestamp": 1788941007.2929192,
+    "crop": "maize",
+    "finding": "Maize ear rot (Fusarium ear rot) and kernel damage on maize (Zea mays)",
+    "pathogen": "Fusarium verticillioides (with possible secondary infestation by Sitophilus zeamais)",
+    "symptoms": "Extensive brown to black rotting of the cob and kernels, presence of dry, powdery fungal mycelium, shriveled and discolored kernels, and localized necrotic lesions on the husk leaves.",
+    "ipm": "Remove and destroy infected cobs to prevent secondary spread. Maintain field sanitation by plowing under crop residue after harvest. Ensure proper spacing for airflow to reduce humidity around the ear zone.\nICAR Extension Guideline: Genome-Wide Association Study and QTL Mapping Reveal Genomic Loci Associated with Fusarium Ear Rot Resistance in Tropical Maize Germplasm Fusarium ear rot (FER) incited by Fusarium verticillioides is a major disease of maize that reduces grain quality globally. Host resistance is the most suitable strategy for managing the disease. We report the results of genome-wide association study (GWAS) to detect alleles associated with increased resistance to FER in a set of 818 tropical maize inbred lines evaluated in three environments. Association tests performed using 43,424 single-nucleotide polymorphic (SNPs) markers identified 45 SNPs and 15 haplotypes that were significantly associated with FER resistance. Each associated SNP locus had relatively small additive effects on disease resistance and accounted for 1–4% of trait variation. These S",
+    "severity": "critical"
+  },
+  {
+    "id": "diag-1788940969114",
+    "timestamp": 1788940969.1148825,
+    "crop": "Crop Specimen",
+    "finding": "Diamondback moth larvae on cabbage (Brassica oleracea)",
+    "pathogen": "Plutella xylostella",
+    "symptoms": "Multiple small, yellowish-green caterpillars with black dorsal spots actively feeding on leaf margins, causing characteristic notching, window-pane feeding (epidermis removal), and ragged leaf edges.",
+    "ipm": "Install pheromone traps for early detection and mass trapping. Encourage natural enemies by planting insectary strips (e.g., marigold, coriander) and avoiding broad-spectrum insecticides. Hand-pick larvae on small-scale plots.\nICAR Extension Guideline: Question: control of diamond back moth in cabbage\nPractice: advised to spray super killer @ 1.5 ml per litre of water",
+    "severity": "moderate"
+  },
+  {
+    "id": "diag-1788940946260",
+    "timestamp": 1788940946.260662,
+    "crop": "Crop Specimen",
+    "finding": "Black bean weevil (Stenocorus griseus) on a legume crop (likely soybean or cowpea)",
+    "pathogen": "Stenocorus griseus (Coleoptera: Curculionidae)",
+    "symptoms": "Adult weevils present on hairy green stems and pods; potential for pod perforation, seed damage, and pod drop. No visible foliar necrosis, but physical presence indicates active infestation.",
+    "ipm": "Monitor fields weekly for adult weevils and pod damage. Hand-pick adults if population is low. Encourage natural predators like birds and parasitoid wasps. Use pheromone traps to monitor population dynamics.\nICAR Extension Guideline: Farmer Question: What other crops can be inter cropped with cassava without interference in yield reduction?\nExpert Guidance: Legumes: Legumes such as cowpeas, soybeans, and groundnuts",
+    "severity": "moderate"
+  },
+  {
+    "id": "diag-1788940920284",
+    "timestamp": 1788940920.2844214,
+    "crop": "Maize",
+    "finding": "Maize ear rot (Fusarium ear rot) on Maize (Zea mays)",
+    "pathogen": "Fusarium verticillioides",
+    "symptoms": "Extensive brown to dark tan rotting of the ear kernel rows, presence of a dry, crumbly, tan-colored fungal mass (mycelium) within the ear, and localized brown necrotic lesions on the outer husk leaves.",
+    "ipm": "Remove and destroy infected ears from the field to prevent spore carryover. Maintain proper plant spacing for good air circulation. Avoid excessive nitrogen fertilization which leads to lush, disease-susceptible growth. Ensure proper irrigation to avoid water stress during grain fill.\nICAR Extension Guideline: Genome-Wide Association Study and QTL Mapping Reveal Genomic Loci Associated with Fusarium Ear Rot Resistance in Tropical Maize Germplasm Fusarium ear rot (FER) incited by Fusarium verticillioides is a major disease of maize that reduces grain quality globally. Host resistance is the most suitable strategy for managing the disease. We report the results of genome-wide association study (GWAS) to detect alleles associated with increased resistance to FER in a set of 818 tropical maize inbred lines evaluated in three environments. Association tests performed using 43,424 single-nucleotide polymorphic (SNPs) markers identified 45 SNPs and 15 haplotypes that were significantly associated with FER resistance. Each associated SNP locus had relatively small additive effects on disease resistance and accounted for 1–4% of trait variation. These S",
+    "severity": "critical"
+  },
+  {
+    "id": "diag-1788885457379",
+    "timestamp": 1788885457.3792765,
+    "crop": "Tomato",
+    "finding": "Early blight on tomato",
+    "pathogen": "Alternaria solani",
+    "symptoms": "Circular, tan to brown necrotic lesions with concentric ring patterns (target-spot appearance) on leaves and fruit, often with a yellow chlorotic halo surrounding the lesion.",
+    "ipm": "Remove and destroy infected lower leaves and plant debris. Avoid overhead irrigation to keep foliage dry. Ensure adequate spacing for air circulation. Apply a protective fungicide spray at the first sign of symptoms.\nICAR Extension Guideline: Question: asking for the management of early blight disease in tomato.\nPractice: i sugges him to spray ridomil @2g per litre of water.",
+    "severity": "critical"
+  },
+  {
+    "id": "diag-1788885340774",
+    "timestamp": 1788885340.7741053,
+    "crop": "Wheat",
+    "finding": "Yellow rust (Stripe rust) on Wheat",
+    "pathogen": "Puccinia striiformis f. sp. tritici",
+    "symptoms": "Distinct yellow-orange circular pustules (uredinia) scattered on the green leaf surface, characteristic of early-stage rust infection.",
+    "ipm": "Monitor field weekly for new pustule formation. Ensure adequate irrigation to prevent water stress which exacerbates rust severity. Remove and destroy severely infected volunteer plants or crop debris to reduce inoculum.",
+    "severity": "critical"
+  },
+  {
+    "id": "diag-1788885250768",
+    "timestamp": 1788885250.7683537,
+    "crop": "Wheat",
+    "finding": "Yellow rust (Stripe rust) on Wheat",
+    "pathogen": "Puccinia striiformis f. sp. tritici",
+    "symptoms": "Distinct yellow-orange circular pustules (uredinia) scattered on the green leaf surface, characteristic of early-stage rust infection.",
+    "ipm": "Monitor field weekly for new pustule formation; ensure adequate irrigation to reduce plant stress; remove and destroy severely infected plant debris to reduce inoculum.",
+    "severity": "critical"
+  },
+  {
+    "id": "diag-1788885206216",
+    "timestamp": 1788885206.2165155,
+    "crop": "Tomato Leaf",
+    "finding": "Early Blight on Tomato",
+    "pathogen": "Alternaria solani",
+    "symptoms": "Distinct circular yellow-orange lesions with concentric ring patterns (target-spot appearance) on the leaf surface.",
+    "ipm": "Remove and destroy infected lower leaves to reduce inoculum. Ensure proper plant spacing for air circulation. Avoid overhead irrigation to keep foliage dry.\nICAR Extension Guideline: Question: asked about control measure of early blight of tomato\nPractice: told him to apply saaf @ 2 ml per lit of water, thrice at 4 days interval for early blight for bacterial l",
+    "severity": "critical"
+  }
+]

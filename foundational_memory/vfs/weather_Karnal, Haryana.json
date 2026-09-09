@@ -1,0 +1,157 @@
+{
+  "uri": "vfs://weather_Karnal, Haryana",
+  "filename": "weather_Karnal, Haryana",
+  "description": "Microclimate and spray index for Karnal, Haryana",
+  "timestamp": 1788884465.138925,
+  "data": {
+    "status": "success",
+    "temp": 28.2,
+    "humidity": 84,
+    "wind": 10.6,
+    "rain": 0,
+    "spray": "Optimal spray window active: Favorable wind (10.6 km/h), ambient temp (28.2°C), and low rain chance (0%).",
+    "advice": "Favorable microclimate for Karnāl. Proceed with normal scheduled irrigation and intercultural operations for Mustard, Wheat.",
+    "uv_index": 6.5,
+    "air_quality_index": 156,
+    "air_quality_desc": "Unhealthy",
+    "hourly": [
+      {
+        "time": "00:00",
+        "temp": 26.7,
+        "pop": 0,
+        "wind": 2.7
+      },
+      {
+        "time": "01:00",
+        "temp": 26.2,
+        "pop": 0,
+        "wind": 2.6
+      },
+      {
+        "time": "02:00",
+        "temp": 25.7,
+        "pop": 0,
+        "wind": 2.7
+      },
+      {
+        "time": "03:00",
+        "temp": 25.3,
+        "pop": 0,
+        "wind": 3.3
+      },
+      {
+        "time": "04:00",
+        "temp": 24.9,
+        "pop": 0,
+        "wind": 5.8
+      },
+      {
+        "time": "05:00",
+        "temp": 26.2,
+        "pop": 0,
+        "wind": 6.7
+      },
+      {
+        "time": "06:00",
+        "temp": 25.6,
+        "pop": 0,
+        "wind": 5.0
+      },
+      {
+        "time": "07:00",
+        "temp": 27.0,
+        "pop": 0,
+        "wind": 6.0
+      },
+      {
+        "time": "08:00",
+        "temp": 29.1,
+        "pop": 0,
+        "wind": 6.0
+      },
+      {
+        "time": "09:00",
+        "temp": 30.5,
+        "pop": 0,
+        "wind": 9.8
+      },
+      {
+        "time": "10:00",
+        "temp": 31.4,
+        "pop": 0,
+        "wind": 10.8
+      },
+      {
+        "time": "11:00",
+        "temp": 32.4,
+        "pop": 0,
+        "wind": 12.5
+      }
+    ],
+    "daily": [
+      {
+        "day": "Today",
+        "date": "08 Sep",
+        "condition": "Clear Sky",
+        "high": 32.9,
+        "low": 24.9,
+        "rainChance": 0,
+        "agriImpact": "Ideal for land preparation, weeding, and foliar spray."
+      },
+      {
+        "day": "Wed",
+        "date": "09 Sep",
+        "condition": "Clear Sky",
+        "high": 33.0,
+        "low": 25.2,
+        "rainChance": 2,
+        "agriImpact": "Ideal for land preparation, weeding, and foliar spray."
+      },
+      {
+        "day": "Thu",
+        "date": "10 Sep",
+        "condition": "Clear Sky",
+        "high": 33.7,
+        "low": 25.3,
+        "rainChance": 2,
+        "agriImpact": "Ideal for land preparation, weeding, and foliar spray."
+      },
+      {
+        "day": "Fri",
+        "date": "11 Sep",
+        "condition": "Light Drizzle",
+        "high": 33.0,
+        "low": 24.5,
+        "rainChance": 59,
+        "agriImpact": "Delay chemical spraying & fertilizer broadcasting."
+      },
+      {
+        "day": "Sat",
+        "date": "12 Sep",
+        "condition": "Thunderstorm",
+        "high": 32.0,
+        "low": 25.6,
+        "rainChance": 74,
+        "agriImpact": "Delay chemical spraying & fertilizer broadcasting."
+      },
+      {
+        "day": "Sun",
+        "date": "13 Sep",
+        "condition": "Light Drizzle",
+        "high": 32.4,
+        "low": 25.4,
+        "rainChance": 73,
+        "agriImpact": "Delay chemical spraying & fertilizer broadcasting."
+      },
+      {
+        "day": "Mon",
+        "date": "14 Sep",
+        "condition": "Moderate Drizzle",
+        "high": 30.6,
+        "low": 25.2,
+        "rainChance": 80,
+        "agriImpact": "Delay chemical spraying & fertilizer broadcasting."
+      }
+    ]
+  }
+}

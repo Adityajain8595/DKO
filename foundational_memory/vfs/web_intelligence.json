@@ -1,0 +1,23 @@
+{
+  "uri": "vfs://web_intelligence",
+  "filename": "web_intelligence",
+  "description": "Web circulars and extension advisories",
+  "timestamp": 1788886761.4908185,
+  "data": [
+    {
+      "title": "Instagram",
+      "snippet": "Create an account or log in to Instagram - Share what you're into with the people who get you.",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "title": "Instagram",
+      "snippet": "Crie uma conta ou entre no Instagram: compartilhe seus interesses com as pessoas que entendem você.",
+      "url": "https://www.instagram.com/?hl=pt-br"
+    },
+    {
+      "title": "Connecting People Through Everyday Moments | About Instagram",
+      "snippet": "Make the most of your Instagram experience by discovering new feature updates, tips, and tools to engage with your audience.",
+      "url": "https://about.instagram.com/about-us/"
+    }
+  ]
+}

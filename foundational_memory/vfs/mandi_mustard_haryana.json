@@ -1,0 +1,39 @@
+{
+  "uri": "vfs://mandi_mustard_haryana",
+  "filename": "mandi_mustard_haryana",
+  "description": "APMC Mandi arrivals and rates for Mustard",
+  "timestamp": 1788884483.38679,
+  "data": {
+    "status": "success",
+    "crop": "Mustard",
+    "state": "Haryana",
+    "modal": "₹7585/q",
+    "band": "7585-7585",
+    "trend": "STABLE",
+    "advice": "Sell now to lock in the current high price.",
+    "sources": [
+      "https://www.kisandeals.com/mandiprices/MUSTARD/HARYANA/ALL",
+      "https://www.data.gov.in/catalog/current-daily-price-various-commodities-various-markets-mandi",
+      "https://agmarknet.gov.in",
+      "https://enam.gov.in",
+      "Agmarknet 2.0 APMC"
+    ],
+    "items": [
+      {
+        "id": "mandi-1",
+        "commodity": "Mustard",
+        "variety": "Mustard (Sarso)",
+        "mandi": "Karnal APMC",
+        "district": "Karnal",
+        "state": "Haryana",
+        "modalPrice": 7585.0,
+        "minPrice": 7585.0,
+        "maxPrice": 7585.0,
+        "msp": null,
+        "trend": "STABLE",
+        "changePct": null,
+        "lastUpdated": "Today"
+      }
+    ]
+  }
+}

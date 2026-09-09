@@ -1,0 +1,19 @@
+{
+  "uri": "vfs://mandi_wheat, basmati rice, mustard_haryana",
+  "filename": "mandi_wheat, basmati rice, mustard_haryana",
+  "description": "APMC Mandi arrivals and rates for Wheat, Basmati Rice, Mustard",
+  "timestamp": 1788876857.553307,
+  "data": {
+    "status": "unavailable",
+    "crop": "Wheat, Basmati Rice, Mustard",
+    "state": "Haryana",
+    "modal": "No arrivals reported",
+    "band": "N/A",
+    "trend": "STABLE",
+    "advice": "No active APMC mandi arrivals reported for Wheat, Basmati Rice, Mustard in Haryana today. Please check the official Agmarknet portal directly.",
+    "sources": [
+      "Agmarknet 2.0"
+    ],
+    "items": []
+  }
+}

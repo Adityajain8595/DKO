@@ -1,0 +1,154 @@
+{
+  "uri": "vfs://weather_Karnal, Punjab",
+  "filename": "weather_Karnal, Punjab",
+  "description": "Microclimate and spray index for Karnal, Punjab",
+  "timestamp": 1788870099.5316725,
+  "data": {
+    "status": "success",
+    "temp": 37.8,
+    "humidity": 56,
+    "wind": 16.5,
+    "rain": 0,
+    "spray": "Unsafe for spraying: High wind speed (16.5 km/h) causes severe chemical drift into non-target areas.",
+    "advice": "Elevated evapotranspiration. Schedule evening root-zone irrigation to protect Wheat, Basmati Rice, Paddy (Non-Basmati) from thermal stress.",
+    "hourly": [
+      {
+        "time": "00:00",
+        "temp": 30.1,
+        "pop": 0,
+        "wind": 6.7
+      },
+      {
+        "time": "01:00",
+        "temp": 29.4,
+        "pop": 0,
+        "wind": 6.7
+      },
+      {
+        "time": "02:00",
+        "temp": 28.9,
+        "pop": 0,
+        "wind": 6.6
+      },
+      {
+        "time": "03:00",
+        "temp": 28.5,
+        "pop": 0,
+        "wind": 10.6
+      },
+      {
+        "time": "04:00",
+        "temp": 28.1,
+        "pop": 0,
+        "wind": 9.9
+      },
+      {
+        "time": "05:00",
+        "temp": 29.2,
+        "pop": 0,
+        "wind": 8.4
+      },
+      {
+        "time": "06:00",
+        "temp": 28.2,
+        "pop": 0,
+        "wind": 5.9
+      },
+      {
+        "time": "07:00",
+        "temp": 29.3,
+        "pop": 0,
+        "wind": 8.2
+      },
+      {
+        "time": "08:00",
+        "temp": 31.6,
+        "pop": 0,
+        "wind": 9.1
+      },
+      {
+        "time": "09:00",
+        "temp": 33.2,
+        "pop": 0,
+        "wind": 10.9
+      },
+      {
+        "time": "10:00",
+        "temp": 34.6,
+        "pop": 0,
+        "wind": 10.2
+      },
+      {
+        "time": "11:00",
+        "temp": 36.2,
+        "pop": 0,
+        "wind": 9.9
+      }
+    ],
+    "daily": [
+      {
+        "day": "Today",
+        "date": "08 Sep",
+        "condition": "Clear Sky",
+        "high": 39.3,
+        "low": 28.1,
+        "rainChance": 0,
+        "agriImpact": "Ideal for land preparation, weeding, and foliar spray."
+      },
+      {
+        "day": "Wed",
+        "date": "09 Sep",
+        "condition": "Clear Sky",
+        "high": 38.9,
+        "low": 28.5,
+        "rainChance": 0,
+        "agriImpact": "Ideal for land preparation, weeding, and foliar spray."
+      },
+      {
+        "day": "Thu",
+        "date": "10 Sep",
+        "condition": "Clear Sky",
+        "high": 39.0,
+        "low": 28.3,
+        "rainChance": 0,
+        "agriImpact": "Ideal for land preparation, weeding, and foliar spray."
+      },
+      {
+        "day": "Fri",
+        "date": "11 Sep",
+        "condition": "Clear Sky",
+        "high": 39.4,
+        "low": 28.3,
+        "rainChance": 0,
+        "agriImpact": "Ideal for land preparation, weeding, and foliar spray."
+      },
+      {
+        "day": "Sat",
+        "date": "12 Sep",
+        "condition": "Clear Sky",
+        "high": 40.1,
+        "low": 29.0,
+        "rainChance": 4,
+        "agriImpact": "Ideal for land preparation, weeding, and foliar spray."
+      },
+      {
+        "day": "Sun",
+        "date": "13 Sep",
+        "condition": "Clear Sky",
+        "high": 39.2,
+        "low": 29.9,
+        "rainChance": 10,
+        "agriImpact": "Ideal for land preparation, weeding, and foliar spray."
+      },
+      {
+        "day": "Mon",
+        "date": "14 Sep",
+        "condition": "Moderate Drizzle",
+        "high": 33.3,
+        "low": 27.5,
+        "rainChance": 32,
+        "agriImpact": "Monitor humidity pockets for early fungal emergence."
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+# =============================================================================
+#  Digital Krishi Officer (DKO) — Root Monorepo .gitignore
+#  Covers: Python backend + Next.js frontend + shared tooling
+# =============================================================================
+
+# =============================================================================
+#  SECRETS & ENVIRONMENT VARIABLES  [CRITICAL — never expose]
+# =============================================================================
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.staging
+*.key
+*.pem
+secrets/
+credentials/
+
+# =============================================================================
+#  PYTHON BACKEND
+# =============================================================================
+
+# Bytecode & interpreter caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution & packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+coverage/
+htmlcov/
+*.coverage
+nosetests.xml
+pytestdebug.log
+
+# Linting & type-checking caches
+.ruff_cache/
+.mypy_cache/
+.pyright/
+pyrightconfig.json
+.dmypy.json
+dmypy.json
+
+# Benchmarks
+.benchmarks/
+
+# Jupyter notebooks (checkpoints only — keep .ipynb if needed)
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =============================================================================
+#  FOUNDATIONAL MEMORY & RAG ARTIFACTS
+# =============================================================================
+# The JSON corpus is required by the deployed backend's fallback RAG.
+# Ignore only local binary/cache artifacts.
+foundational_memory/**/*.parquet
+foundational_memory/**/*.pkl
+foundational_memory/**/*.pickle
+
+# Raw data files
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.bin
+*.safetensors
+*.gguf
+
+# =============================================================================
+#  NEXT.JS FRONTEND
+# =============================================================================
+
+# Build outputs
+.next/
+out/
+build/
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Yarn Berry
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# TypeScript build artifacts
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing
+coverage/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# =============================================================================
+#  IDE & EDITOR
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+
+# =============================================================================
+#  OPERATING SYSTEM
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============================================================================
+#  DEPLOYMENT PLATFORMS
+# =============================================================================
+.vercel
+.netlify
+
+# =============================================================================
+#  LOGS & TEMPORARY FILES
+# =============================================================================
+*.log
+logs/
+*.tmp
+*.temp
+.cache/
+tmp/
+
+# =============================================================================
+#  DOCKER (if used in future)
+# =============================================================================
+.dockerignore
+docker-compose.override.yml

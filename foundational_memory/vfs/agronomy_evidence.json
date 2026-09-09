@@ -1,0 +1,26 @@
+{
+  "uri": "vfs://agronomy_evidence",
+  "filename": "agronomy_evidence",
+  "description": "Vision diagnosis and ICAR research passages",
+  "timestamp": 1788883875.9572084,
+  "data": {
+    "vision": null,
+    "rag_evidence": [
+      {
+        "text": "Question: What common practice is done to control field pests?\nPractice: Crop rotation: Rotating crops can help break pest cycles and reduce pest populations over time. Use of resistant varieties: Planting crop varieties that are resistant or tolerant to specific pests can help reduce pest damage. Proper field hygiene: Removing crop residue and weeds can eliminate potential hiding places and breeding grounds for pests. Sanitation: Proper disposal of infested plants, crop debris, and waste materials can help prevent the spread of pests. Biological control: Introducing beneficial insects, such as ladybugs or parasitic wasps, that prey on pests can help control their populations naturally. Mechanical methods: Handpicking pests, using traps, or employing physical barriers can be effective in managing certain pests. Integrated Pest Management ",
+        "score": 0.9993932247161865,
+        "source": "Talha Agronomy Lifecycle"
+      },
+      {
+        "text": "Question: What characteristics should a good crop store have to prevent pest\nPractice: Good ventilation: Proper air circulation is crucial to prevent the buildup of moisture, which can attract pests like molds, mites, and insects. The store should have vents or fans to allow fresh air to enter and stale air to exit. Dryness: Most pests prefer humid conditions, so a dry store is less attractive to them. The store should be free from leaks, and the walls and floor should be made of materials that do not absorb moisture. Cleanliness: A clean store reduces the likelihood of pest infestation. Any spilled grain or produce should be promptly cleaned up, and the store should be regularly swept and sanitized. Pest monitoring: Regular inspection of stored crops is essential to detect any signs of pest infestation early. Traps or baits can be used t",
+        "score": 0.9982572197914124,
+        "source": "Talha Agronomy Lifecycle"
+      },
+      {
+        "text": "Question: What characteristics should a good crop store have to prevent pest\nPractice: Good ventilation: Proper air circulation is crucial to prevent the buildup of moisture, which can attract pests like molds, mites, and insects. The store should have vents or fans to allow fresh air to enter and stale air to exit. Dryness: Most pests prefer humid conditions, so a dry store is less attractive to them. The store should be free from leaks, and the walls and floor should be made of materials that do not absorb moisture. Cleanliness: A clean store reduces the likelihood of pest infestation. Any spilled grain or produce should be promptly cleaned up, and the store should be regularly swept and sanitized. Pest monitoring: Regular inspection of stored crops is essential to detect any signs of pest infestation early. Traps or baits can be used t",
+        "score": 0.9982572197914124,
+        "source": "Talha Agronomy Lifecycle"
+      }
+    ]
+  }
+}
