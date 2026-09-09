@@ -1,0 +1,273 @@
+@import "tailwindcss";
+
+/* ====================================================================
+   DKO Design System — Agricultural Light Theme
+   ==================================================================== */
+
+@theme {
+  --color-primary: #15803D;
+  --color-primary-light: #22C55E;
+  --color-primary-dark: #166534;
+  --color-on-primary: #FFFFFF;
+
+  --color-accent: #A16207;
+  --color-accent-light: #D97706;
+  --color-on-accent: #FFFFFF;
+
+  --color-sun: #F59E0B;
+  --color-sky: #0EA5E9;
+
+  --color-background: #F8FBF6;
+  --color-foreground: #14532D;
+
+  --color-card: #FFFFFF;
+  --color-card-foreground: #14532D;
+
+  --color-muted: #F0F4EE;
+  --color-muted-foreground: #64748B;
+
+  --color-border: #D1E7D5;
+  --color-border-light: #E8F0EA;
+
+  --color-destructive: #DC2626;
+  --color-on-destructive: #FFFFFF;
+
+  --color-ring: #15803D;
+
+  --color-farmer-bubble: #FFFFFF;
+  --color-farmer-border: #D1E7D5;
+  --color-ai-bubble: #F0FDF4;
+  --color-ai-border: #BBF7D0;
+
+  --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+  --radius-full: 9999px;
+}
+
+/* ====================================================================
+   Base
+   ==================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* ====================================================================
+   Glassmorphic card treatment
+   ==================================================================== */
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border-light);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    0 4px 16px rgba(21, 128, 61, 0.04);
+}
+
+.glass-card-solid {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    0 4px 16px rgba(21, 128, 61, 0.06);
+}
+
+/* ====================================================================
+   Typing indicator
+   ==================================================================== */
+
+.typing-dot {
+  animation: typing-bounce 1.4s infinite ease-in-out both;
+}
+
+.typing-dot:nth-child(1) { animation-delay: -0.32s; }
+.typing-dot:nth-child(2) { animation-delay: -0.16s; }
+.typing-dot:nth-child(3) { animation-delay: 0s; }
+
+@keyframes typing-bounce {
+  0%, 80%, 100% {
+    transform: scale(0.6);
+    opacity: 0.4;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* ====================================================================
+   Voice recording pulse
+   ==================================================================== */
+
+.recording-pulse {
+  animation: pulse-ring 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(220, 38, 38, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+  }
+}
+
+/* ====================================================================
+   Audio waveform bars
+   ==================================================================== */
+
+.waveform-bar {
+  animation: waveform 0.8s ease-in-out infinite alternate;
+}
+
+.waveform-bar:nth-child(1) { animation-delay: 0s; height: 8px; }
+.waveform-bar:nth-child(2) { animation-delay: 0.1s; height: 16px; }
+.waveform-bar:nth-child(3) { animation-delay: 0.2s; height: 12px; }
+.waveform-bar:nth-child(4) { animation-delay: 0.3s; height: 20px; }
+.waveform-bar:nth-child(5) { animation-delay: 0.15s; height: 10px; }
+
+@keyframes waveform {
+  0% { height: 4px; }
+  100% { height: 20px; }
+}
+
+/* ====================================================================
+   Scrollbar
+   ==================================================================== */
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: var(--color-border);
+  border-radius: var(--radius-full);
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary-light);
+}
+
+/* ====================================================================
+   Severity badge colors
+   ==================================================================== */
+
+.severity-healthy { background-color: #DCFCE7; color: #166534; }
+.severity-mild    { background-color: #FEF9C3; color: #854D0E; }
+.severity-moderate { background-color: #FED7AA; color: #9A3412; }
+.severity-severe  { background-color: #FECACA; color: #991B1B; }
+
+/* ====================================================================
+   Markdown content styling (for AI responses)
+   ==================================================================== */
+
+.markdown-content h2 {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary-dark);
+}
+
+.markdown-content h3 {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  margin-bottom: 0.35rem;
+  color: var(--color-foreground);
+}
+
+.markdown-content p {
+  margin-bottom: 0.5rem;
+  line-height: 1.65;
+}
+
+.markdown-content strong {
+  font-weight: 600;
+  color: var(--color-primary-dark);
+}
+
+.markdown-content ul, .markdown-content ol {
+  padding-left: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.markdown-content li {
+  margin-bottom: 0.25rem;
+  line-height: 1.6;
+}
+
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+  font-size: 0.875rem;
+}
+
+.markdown-content th {
+  background-color: var(--color-muted);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.markdown-content td {
+  padding: 0.4rem 0.75rem;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.markdown-content a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.markdown-content a:hover {
+  color: var(--color-primary-dark);
+}
+
+/* ====================================================================
+   Reduced motion
+   ==================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .typing-dot,
+  .recording-pulse,
+  .waveform-bar {
+    animation: none;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}
