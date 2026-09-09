@@ -1,13 +1,17 @@
 import json
 import os
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import uvicorn
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 
-from backend.agent.orchestrator import generate_session_title, run_agent, stream_agent
-from backend.schemas import (
+from agent.orchestrator import generate_session_title, run_agent, stream_agent
+from schemas import (
     ChatReq,
     ChatRes,
     MandiReq,
@@ -21,10 +25,10 @@ from backend.schemas import (
     WeatherReq,
     WeatherRes,
 )
-from backend.tools.market import run_market
-from backend.tools.schemes import run_schemes
-from backend.tools.vision import get_recent_diagnoses, run_vision
-from backend.tools.weather import run_weather
+from tools.market import run_market
+from tools.schemes import run_schemes
+from tools.vision import get_recent_diagnoses, run_vision
+from tools.weather import run_weather
 
 app = FastAPI(
     title="Digital Krishi Officer (DKO) Autonomous Backend",

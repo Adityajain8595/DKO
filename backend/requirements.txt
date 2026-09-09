@@ -6,11 +6,9 @@ langgraph
 langchain-community
 langchain-groq
 langchain-tavily
-chromadb
 sentence-transformers
 requests
 pydantic
-ddgs
 python-dotenv
 beautifulsoup4
 fsspec
