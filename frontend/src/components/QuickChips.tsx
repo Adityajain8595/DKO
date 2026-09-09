@@ -84,7 +84,11 @@ export default function QuickChips({ suggestions, onSelect }: QuickChipsProps) {
               key={i}
               type="button"
               onClick={() => onSelect(s)}
-              className="group flex items-start gap-3 p-3 rounded-xl bg-card border border-border/80 hover:border-primary/60 hover:bg-primary/[0.03] hover:shadow-xs transition-all duration-200 text-left cursor-pointer"
+              className={`group flex items-start gap-3 p-3 rounded-xl bg-card border border-border/80 hover:border-primary/60 hover:bg-primary/[0.03] hover:shadow-xs transition-all duration-200 text-left cursor-pointer ${
+                i === suggestions.length - 1
+                  ? "sm:col-span-2 sm:w-[calc(50%-0.3125rem)] sm:justify-self-center"
+                  : ""
+              }`}
             >
               <div
                 className={`p-2 rounded-lg shrink-0 ${meta.bgClass} ${meta.textClass} group-hover:scale-105 transition-transform duration-200`}

@@ -36,16 +36,20 @@ app = FastAPI(
     description="Agentic RAG and Multimodal Agricultural Decision Intelligence System"
 )
 
+configured_origins = os.getenv(
+    "CORS_ORIGINS",
+    "http://localhost:3000,http://127.0.0.1:3000",
+).split(",")
+allowed_origins = {
+    origin.strip()
+    for origin in configured_origins
+    if origin.strip()
+}
+allowed_origins.update({"https://dko.vercel.app"})
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        origin.strip()
-        for origin in os.getenv(
-            "CORS_ORIGINS",
-            "http://localhost:3000,http://127.0.0.1:3000",
-        ).split(",")
-        if origin.strip()
-    ],
+    allow_origins=sorted(allowed_origins),
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"]
