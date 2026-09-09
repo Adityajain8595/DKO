@@ -17,7 +17,7 @@ class Settings:
     # Vector DB & Storage
     index_name: str = "dko-agri-v2"
     embed_model: str = "multilingual-e5-large"
-    cache_dir: str = "foundational_memory"
+    cache_dir: str = os.path.dirname(os.path.abspath(__file__))
 
     # LLM Models on Groq
     # Verified: openai/gpt-oss-120b natively handles multi-turn tool calling in LangGraph
