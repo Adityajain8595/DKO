@@ -1,13 +1,11 @@
-import os
 import time
 from typing import Any
 
 import requests
 from langchain_core.tools import tool
 from pinecone import Pinecone
-from pinecone_text.sparse.bm25_encoder import BM25Encoder
 
-from backend.config import cache_dir, embed_model, hf_token, index_name, pinecone_key
+from backend.config import embed_model, hf_token, index_name, pinecone_key
 
 pine_box: Pinecone | None = None
 pine_idx = None
@@ -32,23 +30,6 @@ def get_ranker():
         except Exception:  # noqa: BLE001, S110
             pass
     return rank_box
-
-bm25_path = os.path.join(cache_dir, "bm25.json")
-bm25_box: BM25Encoder | None = None
-
-def load_bm25() -> BM25Encoder:
-    global bm25_box
-    if bm25_box is not None:
-        return bm25_box
-    if os.path.exists(bm25_path):
-        try:
-            bm25_box = BM25Encoder()
-            bm25_box.load(bm25_path)
-            return bm25_box
-        except Exception:  # noqa: BLE001, S110
-            pass
-    bm25_box = BM25Encoder.default()
-    return bm25_box
 
 def get_dense_embedding(query: str) -> list[float] | None:
     # Primary: Hugging Face serverless router inference
@@ -107,9 +88,7 @@ def set_cached_retrieval(query: str, hits: list[dict[str, Any]]):
     retrieval_cache[key] = (time.time(), hits)
 
 def run_retrieval(query: str, top_k: int = 4) -> list[dict[str, Any]]:
-    """
-    Hybrid Vector + Sparse BM25 + FlashRank Reranker search against ICAR Agronomy Knowledgebase.
-    """
+    """Dense semantic search against the ICAR Agronomy Knowledgebase."""
     clean_q = query.strip()
     if not clean_q:
         return []
@@ -126,26 +105,12 @@ def run_retrieval(query: str, top_k: int = 4) -> list[dict[str, Any]]:
     if not pidx:
         return []
 
-    # Sparse vector for hybrid match
-    sparse_vec: dict[str, Any] | None = None
-    try:
-        encoder = load_bm25()
-        encoded: Any = encoder.encode_queries(clean_q)
-        if isinstance(encoded, dict) and encoded.get("indices"):
-            sparse_vec = encoded
-        elif isinstance(encoded, list) and len(encoded) > 0 and isinstance(encoded[0], dict):
-            sparse_vec = encoded[0]
-    except Exception:  # noqa: BLE001
-        sparse_vec = None
-
     try:
         query_kwargs: dict[str, Any] = {
             "vector": dense_vec,
             "top_k": max(top_k * 3, 10),
             "include_metadata": True
         }
-        if sparse_vec and sparse_vec.get("indices"):
-            query_kwargs["sparse_vector"] = sparse_vec
 
         res = pidx.query(**query_kwargs)
         matches = res.matches if hasattr(res, "matches") else []

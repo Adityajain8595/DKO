@@ -6,15 +6,10 @@ langgraph
 langchain-community
 langchain-groq
 langchain-tavily
-sentence-transformers
 requests
 pydantic
 python-dotenv
 beautifulsoup4
-fsspec
 groq
 pinecone
-pinecone-text
-pyarrow
 tenacity
-Pillow
